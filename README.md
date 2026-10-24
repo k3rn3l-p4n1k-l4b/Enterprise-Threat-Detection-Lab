@@ -7,12 +7,12 @@ I am actively building on top of this environment to simulate real-world attacks
 
 ### Core Infrastructure
 
-The entire laboratory runs on a dedicated Proxmox VE node isolated behind a custom virtual network (pfSense/pns_net). 
+The entire laboratory runs on a dedicated Proxmox VE node isolated behind a custom virtual network (OPNSense). 
 
-- **Domain Controller:** Windows Server 2022 (Hostname: DC01) 
+- **Domain Controller:** Windows Server 2025 (Hostname: WIN-0RVIF6V29KG) 
     - Active Directory Domain Services (AD DS) 
     - DNS / DHCP roles configured 
-- **Endpoints:** Windows 11 Enterprise (Hostname: WIN11-LAB01) 
+- **Endpoints:** Windows 11 Enterprise (Hostname: LAB-WIN11-01) 
     - Domain-joined to the testing environment 
     - Used for generating standard user activity and attack behaviors 
 - **SIEM / Telemetry:** Wazuh Server (Ubuntu 24.04 LTS) 
